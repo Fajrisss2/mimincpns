@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: 'dikkusi cpns 2024 /JADI ASN', url: 'https://t.me/grupcpns2023' }
         ],
         contact: [
-            { name: 'WhatsApp', content: '+6285171546073' }
+            { name: 'WhatsApp', content: 'Hubungi Kami' }
         ]
     };
 
