@@ -85,6 +85,9 @@ h1 {
 }
 
 .links li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 1rem;
 }
 
@@ -97,6 +100,8 @@ h1 {
     text-decoration: none;
     transition: all 0.3s ease;
     font-weight: 400;
+    flex-grow: 1;
+    margin-right: 10px;
 }
 
 .links a:hover {
@@ -142,4 +147,38 @@ h1 {
     .category {
         width: 100%;
     }
+}
+
+.copy-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #45a049;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
 }

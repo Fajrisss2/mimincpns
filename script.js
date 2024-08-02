@@ -25,7 +25,7 @@ const linkData = {
         { name: 'dikkusi cpns 2024 /JADI ASN', url: 'https://t.me/grupcpns2023' }
     ],
     contact: [
-        { name: 'Paid Promote', content: '<i class="fab fa-whatsapp"></i> <a href="https://wa.me/6287737766321" target="_blank">087737766321</a>' }
+        { name: 'WhatsApp', content: '085171546073' }
     ]
 };
 
@@ -89,34 +89,61 @@ function showWhatsAppLinks(subcategory) {
     const links = linkData.whatsapp[subcategory];
     let html = '<button class="back-button"><i class="fas fa-arrow-left"></i> Back</button><ul class="links">';
     links.forEach(link => {
-        html += `<li><a href="${link.url}" target="_blank"><i class="fab fa-whatsapp"></i> ${link.name}</a></li>`;
+        html += `
+            <li>
+                <a href="${link.url}" target="_blank"><i class="fab fa-whatsapp"></i> ${link.name}</a>
+                <button class="copy-button" data-url="${link.url}"><i class="fas fa-copy"></i></button>
+            </li>`;
     });
     html += '</ul>';
     mainContent.innerHTML = html;
     mainContent.classList.add('fade-in');
     document.querySelector('.back-button').addEventListener('click', showWhatsAppSubcategories);
+    document.querySelectorAll('.copy-button').forEach(button => {
+        button.addEventListener('click', copyToClipboard);
+    });
 }
 
 function showLinks(category) {
     const links = linkData[category];
     let html = '<button class="back-button"><i class="fas fa-arrow-left"></i> Back</button><ul class="links">';
     links.forEach(link => {
-        html += `<li><a href="${link.url}" target="_blank"><i class="fab fa-telegram"></i> ${link.name}</a></li>`;
+        html += `
+            <li>
+                <a href="${link.url}" target="_blank"><i class="fab fa-telegram"></i> ${link.name}</a>
+                <button class="copy-button" data-url="${link.url}"><i class="fas fa-copy"></i></button>
+            </li>`;
     });
     html += '</ul>';
     mainContent.innerHTML = html;
     mainContent.classList.add('fade-in');
     document.querySelector('.back-button').addEventListener('click', showMainCategories);
+    document.querySelectorAll('.copy-button').forEach(button => {
+        button.addEventListener('click', copyToClipboard);
+    });
 }
 
 function showContactInfo() {
     const contactInfo = linkData.contact[0];
     let html = '<button class="back-button"><i class="fas fa-arrow-left"></i> Back</button>';
     html += `<h2>${contactInfo.name}</h2>`;
-    html += `<p>${contactInfo.content}</p>`;
+    html += `<a href="https://wa.me/${contactInfo.content}" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+    </a>`;
     mainContent.innerHTML = html;
     mainContent.classList.add('fade-in');
     document.querySelector('.back-button').addEventListener('click', showMainCategories);
+}
+
+function copyToClipboard(event) {
+    const url = event.currentTarget.dataset.url;
+    navigator.clipboard.writeText(url).then(() => {
+        const originalText = event.currentTarget.innerHTML;
+        event.currentTarget.innerHTML = '<i class="fas fa-check"></i>';
+        setTimeout(() => {
+            event.currentTarget.innerHTML = originalText;
+        }, 2000);
+    });
 }
 
 showMainCategories();
