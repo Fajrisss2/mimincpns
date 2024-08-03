@@ -170,9 +170,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function setupNotifications() {
         const notificationIcon = document.createElement('div');
         notificationIcon.className = 'notification-icon';
-        notificationIcon.innerHTML = '<i class="fas fa-bell"></i><span class="notification-count">2</span>';
+        notificationIcon.innerHTML = '<i class="fas fa-bell"></i><span class="notification-count">3</span>';
         document.body.appendChild(notificationIcon);
-
+    
         const notificationPanel = document.createElement('div');
         notificationPanel.className = 'notification-panel';
         notificationPanel.innerHTML = `
@@ -182,34 +182,53 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="notification-list">
                 <div class="notification-item">
-                    <h4>Kumpulan Link Group</h4>
-                    <p>Silahkan Join Group Secukupny,Tida Perlu Semua</p>
+                    <img src="./img/TO Gratis 4.png" alt="Logo" class="notification-image">
+                    <h4>Kuota Formasi Kab Siagian</h4>
+                    <p class="notification-text">Silahkan Join Group Untuk FIle Lengkap. <a href="https://example.com/penting">Baca selengkapnya</a></p>
+                    <span class="notification-time">2 jam yang lalu</span>
                 </div>
                 <div class="notification-item">
-                    <h4>NEWS!</h4>
-                    <p>List Instansi Yang Telah keluar :Kab Siagian,Kemenkes.</p>
+                    <div class="notification-icon-small"><i class="fas fa-info-circle"></i></div>
+                    <h4>INFORMASI</h4>
+                    <p class="notification-text">Join Ke Group Secukupnya tidak Perlu semua.</p>
+                    <span class="notification-time">03 Agustus 2024</span>
                 </div>
+                <div class="notification-item">
+                    <div class="notification-icon-small"><i class="fas fa-exclamation-triangle"></i></div>
+                    <h4>Peringatan Cuaca</h4>
+                    <p class="notification-text">Diperkirakan akan terjadi hujan lebat besok. Tetap waspada!</p>
+                    <span class="notification-time">1 hari yang lalu</span>
+                </div>
+            </div>
+            <div class="notification-footer">
+                <button id="markAllRead">Tandai semua telah dibaca</button>
             </div>
         `;
         document.body.appendChild(notificationPanel);
-
+    
         notificationIcon.addEventListener('click', () => {
             notificationPanel.style.display = notificationPanel.style.display === 'block' ? 'none' : 'block';
+            notificationIcon.classList.toggle('active');
         });
-
+    
         const closeButton = notificationPanel.querySelector('#closeNotifications');
         if (closeButton) {
             closeButton.addEventListener('click', () => {
                 notificationPanel.style.display = 'none';
+                notificationIcon.classList.remove('active');
             });
-        } else {
-            console.error('Close button not found');
         }
-
-        console.log('Notification panel created:', notificationPanel);
-        console.log('Close button found:', closeButton);
-    }
-
+    
+        const markAllReadButton = notificationPanel.querySelector('#markAllRead');
+        if (markAllReadButton) {
+            markAllReadButton.addEventListener('click', () => {
+                const notificationItems = notificationPanel.querySelectorAll('.notification-item');
+                notificationItems.forEach(item => item.classList.add('read'));
+                notificationIcon.querySelector('.notification-count').textContent = '0';
+            });
+        }
+    }    
+        
     // Inisialisasi tampilan
     showMainCategories();
 
