@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contacts.forEach(contact => {
             html += `
                 <li class="link-box">
-                    <a href="https://wa.me/${contact.content}" target="_blank">
+                    <a href="https://wa.me/6285171546073?text=Halo%20Mimin%20Cpns}" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                         <span>${contact.name}: ${contact.content}</span>
                     </a>
