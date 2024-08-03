@@ -182,12 +182,12 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="notification-list">
                 <div class="notification-item">
-                    <h4>Welcome!</h4>
-                    <p>Welcome to your new profile page!</p>
+                    <h4>Kumpulan Link Group</h4>
+                    <p>Silahkan Join Group Secukupny,Tida Perlu Semua</p>
                 </div>
                 <div class="notification-item">
-                    <h4>New Feature</h4>
-                    <p>Check out the new notification system!</p>
+                    <h4>NEWS!</h4>
+                    <p>List Instansi Yang Telah keluar :Kab Siagian,Kemenkes.</p>
                 </div>
             </div>
         `;
