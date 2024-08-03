@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="notification-icon" id="notificationIcon">
+        <i class="fas fa-bell"></i>
+        <span class="notification-count">0</span>
+    </div>
+    <div class="notification-panel" id="notificationPanel">
+        <div class="notification-header">
+            <h3>Notifications</h3>
+            <button id="closeNotifications">&times;</button>
+        </div>
+        <div class="notification-list" id="notificationList">
+            <!-- Notifications will be added here dynamically -->
+        </div>
+    </div>    
     <div class="container">
         <header>
             <img src="./img/logo.png" alt="Profile Picture" class="profile-pic">
