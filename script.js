@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const linkData = {
         whatsapp: {
             daerah: [
-                { name: 'Aceh', url: 'https://chat.whatsapp.com/KkyI28NFqAr4MQeZlcIOxH' },
+                { name: 'Aceh', url: 'https://chat.whatsapp.com/EJNOTRyAH1qDqYFGVPbd1w' },
                 { name: 'Sumatera Utara', url: 'https://chat.whatsapp.com/IHTRTMfrk8K7X52YgrntrA' },
                 { name: 'Sumatera Barat', url: 'https://chat.whatsapp.com/FdzoDIEIhR3HEchbPEjMIm' },
                 { name: 'Riau', url: 'https://chat.whatsapp.com/EJ0d3Iee6Q5HdyqBMAdEX8' },
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="notification-item">
                     <img src="./img/ss.png" alt="Logo" class="notification-image">
                     <h4>Kuota Formasi Kab Siagian</h4>
-                    <p class="notification-text">Silahkan Join Group Untuk FIle Lengkap. <a href="https://www.groupcpns2024.com/">Baca selengkapnya</a></p>
+                    <p class="notification-text">Silahkan Join Group Untuk File Lengkap. <a href="https://www.groupcpns2024.com/">Baca selengkapnya</a></p>
                     <span class="notification-time">Today</span>
                 </div>
                 <div class="notification-item">
