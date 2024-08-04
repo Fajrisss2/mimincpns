@@ -3,25 +3,91 @@ document.addEventListener('DOMContentLoaded', function() {
     const linkData = {
         whatsapp: {
             daerah: [
-                { name: 'Sumatera Utara', url: 'https://chat.whatsapp.com/FtGzUnUvLanB42cKpJpEP8' },
-                { name: 'Sumatera Barat', url: 'https://chat.whatsapp.com/J2Zby3iB41T8cUvsEB2eOT' },
-                { name: 'Aceh', url: 'https://chat.whatsapp.com/IkmM2MsSYba73sgqQN4YWJ' },
+                { name: 'Aceh', url: 'https://chat.whatsapp.com/KkyI28NFqAr4MQeZlcIOxH' },
+                { name: 'Sumatera Utara', url: 'https://chat.whatsapp.com/IHTRTMfrk8K7X52YgrntrA' },
+                { name: 'Sumatera Barat', url: 'https://chat.whatsapp.com/FdzoDIEIhR3HEchbPEjMIm' },
+                { name: 'Riau', url: 'https://chat.whatsapp.com/EJ0d3Iee6Q5HdyqBMAdEX8' },
+                { name: 'Kepulauan Riau', url: 'https://chat.whatsapp.com/IgkkYyg64kDGM7RxvpqJim' },
+                { name: 'Jambi', url: 'https://chat.whatsapp.com/FWQciglmJjXCX4lFJuFATQ' },
+                { name: 'Sumatera Selatan', url: 'https://chat.whatsapp.com/JFYJLAxhYGFDKhPIzfzurS' },
+                { name: 'Kepulauan Bangka Belitung', url: 'https://chat.whatsapp.com/JKnFg6JilhYLedIrvMppys' },
+                { name: 'Bengkulu', url: 'https://chat.whatsapp.com/C7xALcq7cPG0vxnBC8vIsX' },
+                { name: 'Lampung', url: 'https://chat.whatsapp.com/LOy0jJcm31pLlgn7XtpL9o' },
+                { name: 'DKI Jakarta', url: 'https://chat.whatsapp.com/FNRgq0YDjUFJfU6mHslYbU' },
+                { name: 'Jawa Barat', url: 'https://chat.whatsapp.com/DKewPqfoTy4JLtyijmhA33' },
+                { name: 'Banten', url: 'https://chat.whatsapp.com/FQI228VkrJ17hTsVhTADlC' },
+                { name: 'Jawa Tengah', url: 'https://chat.whatsapp.com/COYvVpUmo6Y6OLypB1Oq4a' },
+                { name: 'DI Yogyakarta', url: 'https://chat.whatsapp.com/JR4PRUwOC8xLl7sixjtyWe' },
+                { name: 'Jawa Timur', url: 'https://chat.whatsapp.com/DXTNmT5t1FKJFcoZ6osWpk' },
+                { name: 'Bali', url: 'https://chat.whatsapp.com/EFvuG6V1f5gLkdSimM1ubj' },
+                { name: 'Nusa Tenggara Barat', url: 'https://chat.whatsapp.com/FeX91vNVJDp6Vaz3nfSOO9' },
+                { name: 'Nusa Tenggara Timur', url: 'https://chat.whatsapp.com/LBFXRBwB3yRBE7qCpuizmQ' },
+                { name: 'Kalimantan Barat', url: 'https://chat.whatsapp.com/HmhxNomWXitA0bV31fRkG9' },
+                { name: 'Kalimantan Tengah', url: 'https://chat.whatsapp.com/LDj0SfsgSjYG6yGDqtd3cY' },
+                { name: 'Kalimantan Selatan', url: 'https://chat.whatsapp.com/GkoHF0DkN1Y1Iq8MWFglvk' },
+                { name: 'Kalimantan Timur', url: 'https://chat.whatsapp.com/CNoudd8fZTW0WZWQ6LIDNa' },
+                { name: 'Kalimantan Utara', url: 'https://chat.whatsapp.com/LQPnfP4GsE9Klc6EUs6TsK' },
+                { name: 'Sulawesi Utara', url: 'https://chat.whatsapp.com/IUIR6CCRjZu5W52gqir8ym' },
+                { name: 'Gorontalo', url: 'https://chat.whatsapp.com/HeiJ9kVBMLU8uldWmGPrIF' },
+                { name: 'Sulawesi Tengah', url: 'https://chat.whatsapp.com/Hyw7YkPZmU0539b20LyMp7' },
+                { name: 'Sulawesi Barat', url: 'https://chat.whatsapp.com/B9QMvfWZKHjLftRDD0irgQ' },
+                { name: 'Sulawesi Selatan', url: 'https://chat.whatsapp.com/J8HDpJWujcR5rHzrbMUMaJ' },
+                { name: 'Sulawesi Tenggara', url: 'https://chat.whatsapp.com/CFO2mi5I9TSDEq2KU8lkid' },
+                { name: 'Maluku', url: 'https://chat.whatsapp.com/Jn7mp3spN9gLIiNlp0jUR9' },
+                { name: 'Maluku Utara', url: 'https://chat.whatsapp.com/GfTkuoNrqoWKyKClYNdAi3' },
+                { name: 'Papua Barat', url: 'https://chat.whatsapp.com/EDvEA32IeTcJXCVN7RWk15' },
+                { name: 'Papua', url: 'https://chat.whatsapp.com/HW6a9PAokRk6DXKVN3qzxW' }
                 // ... (sisanya tetap sama)
             ],
             instansi: [
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/L9yeLROPu5aAETSTElzd4k' },
                 { name: 'Kemenkumham', url: 'https://chat.whatsapp.com/Fcuq1buii6NHXpmA1zFh0l' },
-                { name: 'Kemenkumham Grup 2', url: '' },
+                { name: 'Kejaksaan Agung', url: 'https://chat.whatsapp.com/FWa0ZVGHWZ26aXACnTmnS1' },
+                { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/L9yeLROPu5aAETSTElzd4k' },
+                { name: 'Mahkamah Agung Republik Indonesia (MA)', url: 'https://chat.whatsapp.com/C1mKLLJFSkyL1nnCsnJ2cd' },
+                { name: 'Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud)', url: 'https://chat.whatsapp.com/KNimVhgwNYa5C8AKF4C6m9' },
+                { name: 'Badan Intelijen Negara (BIN)', url: 'https://chat.whatsapp.com/E7UH1hnlGjjAFNdfSFrTSi' },
+                { name: 'Sekretariat Jenderal DPR RI', url: 'https://chat.whatsapp.com/GHlBoG7ikesCXdbXxqZdc7' },
+                { name: 'Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)', url: 'https://chat.whatsapp.com/HiKayv7cM36CFEqsyVDTtR' },
+                { name: 'Kementerian Kesehatan (Kemenkes)', url: 'https://chat.whatsapp.com/LOPFFhb5w1jIrciP5occ6w' },
+                { name: 'Kementerian Agama RI (Kemenag)', url: 'https://chat.whatsapp.com/K13jEZqSGJZH4nIWT9UvK8' },
+                { name: 'Kementerian Pertanian (Mentan)', url: 'https://chat.whatsapp.com/KXSPCJmTqQcGKwZ0mYZlAx' },
+                { name: 'Kementerian ATR/BPN', url: 'https://chat.whatsapp.com/CAgYsWMML0E5Jpa2Zly2D5' },
+                { name: 'Badan Pengawas Pemilu (Bawaslu)', url: 'https://chat.whatsapp.com/Khrubc8nVHE5aS3GnFdyfI' },
+                { name: 'Badan Nasional Pencarian dan Pertolongan (Basarnas)', url: 'https://chat.whatsapp.com/E6k8X1Bgri4G36xNBmDs9L' },
+                { name: 'Kementerian PUPR RI', url: 'https://chat.whatsapp.com/EJGIk6No3PpB6AoUxABILA' },
+                { name: 'Kementerian Pan-RB', url: 'https://chat.whatsapp.com/FR5mqbACxBy530GHCzMOgp' },
+                { name: 'Kementerian Pertahanan', url: 'https://chat.whatsapp.com/FXRyuLkyWZ668KEh8cZxEK' }
                 // ... (sisanya tetap sama)
             ]
         },
-        telegram: [
-            { name: 'INFO CPNS 2024', url: 'https://t.me/cpnsdanpppk_indonesia' },
-            { name: 'GRUP CPNS & KEDINASAN 2024 BY RETTA PRAMESTI', url: 'https://t.me/Cpns2024rettaa' },
-            { name: 'INFORMASI CPNS PPPK 2024', url: 'https://t.me/informasicpns2' },
-            { name: 'INFO CPNS 2024 (NEW)', url: 'https://t.me/cpns_2024' },
-            { name: 'dikkusi cpns 2024 /JADI ASN', url: 'https://t.me/grupcpns2023' }
-        ],
+        telegram: {
+            instansi: [
+                { name: 'DISKUSI CPNS 2024 - Umum', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENTERIAN AGAMA', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENTERIAN PERTAHANAN', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENTERIAN PAN RB', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEJAKSAAN', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENTERIAN KESEHATAN', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENDIKBUDRISTEK', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENTERIAN PUPR', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'MAHKAMAH AGUNG', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENTERIAN PERHUBUNGAN', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'BAWASLU', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'BASARNAS', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENKUMHAM', url: 'https://t.me/cpnsindonesia24' },
+                // Tambahkan instansi lain sesuai kebutuhan
+            ],
+            formasi: [
+                { name: 'DISKUSI CPNS 2024 - Formasi Umum', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'Link Ready Setelah Pengunguman Resmi', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'Link Ready Setelah Pengunguman Resmi', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'Link Ready Setelah Pengunguman Resmi', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'Link Ready Setelah Pengunguman Resmi', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'Link Ready Setelah Pengunguman Resmi', url: 'https://t.me/cpnsindonesia24' },
+                // Tambahkan formasi lain sesuai kebutuhan
+            ]
+        },
         contact: [
             { name: 'WhatsApp', content: 'Hubungi Kami' }
         ]
@@ -55,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (category === 'whatsapp') {
             showWhatsAppSubcategories();
         } else if (category === 'telegram') {
-            showLinks('telegram');
+            showTelegramSubcategories();
         } else if (category === 'contact') {
             showContactInfo();
         }
@@ -65,11 +131,11 @@ document.addEventListener('DOMContentLoaded', function() {
         let html = '<button class="back-button"><i class="fas fa-arrow-left"></i> Kembali</button>';
         html += `
             <div class="category-container">
-                <div class="category" data-subcategory="daerah">
+                <div class="category" data-category="whatsapp" data-subcategory="daerah">
                     <i class="fas fa-map-marker-alt"></i>
                     <span>Daerah</span>
                 </div>
-                <div class="category" data-subcategory="instansi">
+                <div class="category" data-category="whatsapp" data-subcategory="instansi">
                     <i class="fas fa-building"></i>
                     <span>Instansi</span>
                 </div>
@@ -79,49 +145,56 @@ document.addEventListener('DOMContentLoaded', function() {
         mainContent.classList.add('fade-in');
         document.querySelector('.back-button').addEventListener('click', showMainCategories);
         document.querySelectorAll('.category').forEach(cat => {
-            cat.addEventListener('click', () => showWhatsAppLinks(cat.dataset.subcategory));
+            cat.addEventListener('click', () => showLinks(cat.dataset.category, cat.dataset.subcategory));
         });
     }
 
-    function showWhatsAppLinks(subcategory) {
-        const links = linkData.whatsapp[subcategory];
-        let html = '<button class="back-button"><i class="fas fa-arrow-left"></i> Kembali</button><ul class="links">';
-        links.forEach(link => {
-            html += `
-                <li class="link-box">
-                    <a href="${link.url}" target="_blank">
-                        <i class="fab fa-whatsapp"></i>
-                        <span>${link.name}</span>
-                        <i class="fas fa-copy copy-icon" data-url="${link.url}"></i>
-                    </a>
-                </li>`;
-        });
-        html += '</ul>';
-        mainContent.innerHTML = html;
-        mainContent.classList.add('fade-in');
-        document.querySelector('.back-button').addEventListener('click', showWhatsAppSubcategories);
-        document.querySelectorAll('.copy-icon').forEach(icon => {
-            icon.addEventListener('click', copyToClipboard);
-        });
-    }
-
-    function showLinks(category) {
-        const links = linkData[category];
-        let html = '<button class="back-button"><i class="fas fa-arrow-left"></i> Kembali</button><ul class="links">';
-        links.forEach(link => {
-            html += `
-                <li class="link-box">
-                    <a href="${link.url}" target="_blank">
-                        <i class="fab fa-telegram"></i>
-                        <span>${link.name}</span>
-                        <i class="fas fa-copy copy-icon" data-url="${link.url}"></i>
-                    </a>
-                </li>`;
-        });
-        html += '</ul>';
+    function showTelegramSubcategories() {
+        let html = '<button class="back-button"><i class="fas fa-arrow-left"></i> Kembali</button>';
+        html += `
+            <div class="category-container">
+                <div class="category" data-category="telegram" data-subcategory="instansi">
+                    <i class="fas fa-building"></i>
+                    <span>Instansi</span>
+                </div>
+                <div class="category" data-category="telegram" data-subcategory="formasi">
+                    <i class="fas fa-users"></i>
+                    <span>Formasi</span>
+                </div>
+            </div>
+        `;
         mainContent.innerHTML = html;
         mainContent.classList.add('fade-in');
         document.querySelector('.back-button').addEventListener('click', showMainCategories);
+        document.querySelectorAll('.category').forEach(cat => {
+            cat.addEventListener('click', () => showLinks(cat.dataset.category, cat.dataset.subcategory));
+        });
+    }
+
+    function showLinks(category, subcategory) {
+        const links = linkData[category][subcategory];
+        let html = '<button class="back-button"><i class="fas fa-arrow-left"></i> Kembali</button><ul class="links">';
+        links.forEach(link => {
+            const icon = category === 'whatsapp' ? 'fa-whatsapp' : 'fa-telegram';
+            html += `
+                <li class="link-box">
+                    <a href="${link.url}" target="_blank">
+                        <i class="fab ${icon}"></i>
+                        <span>${link.name}</span>
+                        <i class="fas fa-copy copy-icon" data-url="${link.url}"></i>
+                    </a>
+                </li>`;
+        });
+        html += '</ul>';
+        mainContent.innerHTML = html;
+        mainContent.classList.add('fade-in');
+        document.querySelector('.back-button').addEventListener('click', () => {
+            if (category === 'whatsapp') {
+                showWhatsAppSubcategories();
+            } else if (category === 'telegram') {
+                showTelegramSubcategories();
+            }
+        });
         document.querySelectorAll('.copy-icon').forEach(icon => {
             icon.addEventListener('click', copyToClipboard);
         });
@@ -133,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contacts.forEach(contact => {
             html += `
                 <li class="link-box">
-                    <a href="https://wa.me/6285171546073?text=Halo%20Mimin%20Cpns}" target="_blank">
+                    <a href="https://wa.me/6285171546073?text=Halo%20Mimin%20Cpns" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                         <span>${contact.name}: ${contact.content}</span>
                     </a>
