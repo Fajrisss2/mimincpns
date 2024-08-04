@@ -4,22 +4,22 @@ document.addEventListener('DOMContentLoaded', function() {
         whatsapp: {
             daerah: [
                 { name: 'Aceh', url: 'https://chat.whatsapp.com/EJNOTRyAH1qDqYFGVPbd1w' },
-                { name: 'Sumatera Utara', url: 'https://chat.whatsapp.com/IHTRTMfrk8K7X52YgrntrA' },
-                { name: 'Sumatera Barat', url: 'https://chat.whatsapp.com/FdzoDIEIhR3HEchbPEjMIm' },
-                { name: 'Riau', url: 'https://chat.whatsapp.com/EJ0d3Iee6Q5HdyqBMAdEX8' },
-                { name: 'Kepulauan Riau', url: 'https://chat.whatsapp.com/IgkkYyg64kDGM7RxvpqJim' },
-                { name: 'Jambi', url: 'https://chat.whatsapp.com/FWQciglmJjXCX4lFJuFATQ' },
-                { name: 'Sumatera Selatan', url: 'https://chat.whatsapp.com/JFYJLAxhYGFDKhPIzfzurS' },
-                { name: 'Kepulauan Bangka Belitung', url: 'https://chat.whatsapp.com/JKnFg6JilhYLedIrvMppys' },
+                { name: 'Bali', url: 'https://chat.whatsapp.com/EFvuG6V1f5gLkdSimM1ubj' },
+                { name: 'Banten', url: 'https://chat.whatsapp.com/FQI228VkrJ17hTsVhTADlC' },
                 { name: 'Bengkulu', url: 'https://chat.whatsapp.com/C7xALcq7cPG0vxnBC8vIsX' },
-                { name: 'Lampung', url: 'https://chat.whatsapp.com/LOy0jJcm31pLlgn7XtpL9o' },
                 { name: 'DKI Jakarta', url: 'https://chat.whatsapp.com/FNRgq0YDjUFJfU6mHslYbU' },
                 { name: 'Jawa Barat', url: 'https://chat.whatsapp.com/DKewPqfoTy4JLtyijmhA33' },
-                { name: 'Banten', url: 'https://chat.whatsapp.com/FQI228VkrJ17hTsVhTADlC' },
                 { name: 'Jawa Tengah', url: 'https://chat.whatsapp.com/COYvVpUmo6Y6OLypB1Oq4a' },
-                { name: 'DI Yogyakarta', url: 'https://chat.whatsapp.com/JR4PRUwOC8xLl7sixjtyWe' },
                 { name: 'Jawa Timur', url: 'https://chat.whatsapp.com/DXTNmT5t1FKJFcoZ6osWpk' },
-                { name: 'Bali', url: 'https://chat.whatsapp.com/EFvuG6V1f5gLkdSimM1ubj' },
+                { name: 'DI Yogyakarta', url: 'https://chat.whatsapp.com/ETyBMugPsjj6XM2KZUV1Cy' },
+                { name: 'Sumatera Utara', url: 'https://chat.whatsapp.com/IHTRTMfrk8K7X52YgrntrA' },
+                { name: 'Sumatera Barat', url: 'https://chat.whatsapp.com/GuHBqhRen3UCv4EyQ9ohtj' },
+                { name: 'Sumatera Selatan', url: 'https://chat.whatsapp.com/CIZ1pFLBIIf6E2KaXbiOLy' },
+                { name: 'Lampung', url: 'https://chat.whatsapp.com/LOy0jJcm31pLlgn7XtpL9o' },
+                { name: 'Riau', url: 'https://chat.whatsapp.com/FgWDp7Ov6NXHWOWQQFekD9' },
+                { name: 'Kepulauan Riau', url: 'https://chat.whatsapp.com/IgkkYyg64kDGM7RxvpqJim' },
+                { name: 'Jambi', url: 'https://chat.whatsapp.com/FWQciglmJjXCX4lFJuFATQ' },
+                { name: 'Kepulauan Bangka Belitung', url: 'https://chat.whatsapp.com/KDr2wFoGRXh0SxgCADFfuo' },
                 { name: 'Nusa Tenggara Barat', url: 'https://chat.whatsapp.com/FeX91vNVJDp6Vaz3nfSOO9' },
                 { name: 'Nusa Tenggara Timur', url: 'https://chat.whatsapp.com/LBFXRBwB3yRBE7qCpuizmQ' },
                 { name: 'Kalimantan Barat', url: 'https://chat.whatsapp.com/HmhxNomWXitA0bV31fRkG9' },
@@ -31,13 +31,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'Gorontalo', url: 'https://chat.whatsapp.com/HeiJ9kVBMLU8uldWmGPrIF' },
                 { name: 'Sulawesi Tengah', url: 'https://chat.whatsapp.com/Hyw7YkPZmU0539b20LyMp7' },
                 { name: 'Sulawesi Barat', url: 'https://chat.whatsapp.com/B9QMvfWZKHjLftRDD0irgQ' },
-                { name: 'Sulawesi Selatan', url: 'https://chat.whatsapp.com/J8HDpJWujcR5rHzrbMUMaJ' },
+                { name: 'Sulawesi Selatan', url: 'https://chat.whatsapp.com/HwaYqhK7BecJ2m5dYxRYu1' },
                 { name: 'Sulawesi Tenggara', url: 'https://chat.whatsapp.com/CFO2mi5I9TSDEq2KU8lkid' },
-                { name: 'Maluku', url: 'https://chat.whatsapp.com/Jn7mp3spN9gLIiNlp0jUR9' },
-                { name: 'Maluku Utara', url: 'https://chat.whatsapp.com/GfTkuoNrqoWKyKClYNdAi3' },
-                { name: 'Papua Barat', url: 'https://chat.whatsapp.com/EDvEA32IeTcJXCVN7RWk15' },
-                { name: 'Papua', url: 'https://chat.whatsapp.com/HW6a9PAokRk6DXKVN3qzxW' }
-                // ... (sisanya tetap sama)
+                { name: 'Maluku', url: 'https://chat.whatsapp.com/Gv9DZGKmObW1Nac7kftDWF' },
+                { name: 'Maluku Utara', url: 'https://chat.whatsapp.com/IMCFGlb4Y5RFj21oTM70Z5' },
+                { name: 'Papua Barat', url: 'https://chat.whatsapp.com/CMOwZiXv7wvKzxq1TyC8Ru' },
+                { name: 'Papua', url: 'https://chat.whatsapp.com/LcpW1zEu9Hk6HBFXAt2Ufc' }
             ],
             instansi: [
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/L9yeLROPu5aAETSTElzd4k' },
@@ -89,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         contact: [
-            { name: 'WhatsApp', content: 'Hubungi Kami' }
+            { name: 'WhatsApp', content: 'Hubungi Kami✅' }
         ]
     };
 
