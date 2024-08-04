@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="notification-list">
                 <div class="notification-item">
                     <img src="./img/ss.png" alt="Logo" class="notification-image">
-                    <h4>Kuota Formasi Kab Siagian</h4>
+                    <h4>Kuota Formasi Kab Sijunjung</h4>
                     <p class="notification-text">Silahkan Join Group Untuk File Lengkap. <a href="https://www.groupcpns2024.com/">Baca selengkapnya</a></p>
                     <span class="notification-time">Today</span>
                 </div>
