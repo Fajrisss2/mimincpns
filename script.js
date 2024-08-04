@@ -182,22 +182,22 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="notification-list">
                 <div class="notification-item">
-                    <img src="./img/TO Gratis 4.png" alt="Logo" class="notification-image">
+                    <img src="./img/ss.png" alt="Logo" class="notification-image">
                     <h4>Kuota Formasi Kab Siagian</h4>
-                    <p class="notification-text">Silahkan Join Group Untuk FIle Lengkap. <a href="https://example.com/penting">Baca selengkapnya</a></p>
-                    <span class="notification-time">2 jam yang lalu</span>
+                    <p class="notification-text">Silahkan Join Group Untuk FIle Lengkap. <a href="https://www.groupcpns2024.com/">Baca selengkapnya</a></p>
+                    <span class="notification-time">Today</span>
                 </div>
                 <div class="notification-item">
                     <div class="notification-icon-small"><i class="fas fa-info-circle"></i></div>
                     <h4>INFORMASI</h4>
                     <p class="notification-text">Join Ke Group Secukupnya tidak Perlu semua.</p>
-                    <span class="notification-time">03 Agustus 2024</span>
+                    <span class="notification-time">today</span>
                 </div>
                 <div class="notification-item">
                     <div class="notification-icon-small"><i class="fas fa-exclamation-triangle"></i></div>
-                    <h4>Peringatan Cuaca</h4>
-                    <p class="notification-text">Diperkirakan akan terjadi hujan lebat besok. Tetap waspada!</p>
-                    <span class="notification-time">1 hari yang lalu</span>
+                    <h4>Tempat Cari Link Belajar&Informasi Terlengkap</h4>
+                    <p class="notification-text">Group Instansi,Group Belajar,Grup Tryout,Group Informasi</p>
+                    <span class="notification-time">Today</span>
                 </div>
             </div>
             <div class="notification-footer">
