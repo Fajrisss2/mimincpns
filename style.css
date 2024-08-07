@@ -47,6 +47,11 @@ header {
     }    
 }
 
+.notes {
+    color: #764BA2;
+    font-size: 12px;
+}
+
 .profile-pic {
     width: 120px;
     height: 120px;
