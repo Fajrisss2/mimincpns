@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'Kalimantan Utara', url: 'https://chat.whatsapp.com/LQPnfP4GsE9Klc6EUs6TsK' },
                 { name: 'Sulawesi Utara', url: 'https://chat.whatsapp.com/IUIR6CCRjZu5W52gqir8ym' },
                 { name: 'Gorontalo', url: 'https://chat.whatsapp.com/HeiJ9kVBMLU8uldWmGPrIF' },
-                { name: 'Sulawesi Tengah', url: 'https://chat.whatsapp.com/CFO2mi5I9TSDEq2KU8lkid' },
+                { name: 'Sulawesi Tengah', url: 'https://chat.whatsapp.com/Hyw7YkPZmU0539b20LyMp7' },
                 { name: 'Sulawesi Barat', url: 'https://chat.whatsapp.com/B9QMvfWZKHjLftRDD0irgQ' },
                 { name: 'Sulawesi Selatan', url: 'https://chat.whatsapp.com/DBeOBT0oWdUDjQdbLELpBW' },
                 { name: 'Sulawesi Tenggara', url: 'https://chat.whatsapp.com/CFO2mi5I9TSDEq2KU8lkid' },
