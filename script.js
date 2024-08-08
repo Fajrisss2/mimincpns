@@ -41,6 +41,8 @@ document.addEventListener('DOMContentLoaded', function() {
             instansi: [
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/L9yeLROPu5aAETSTElzd4k' },
                 { name: 'Kemenkumham', url: 'https://chat.whatsapp.com/Fcuq1buii6NHXpmA1zFh0l' },
+                { name: 'Kementerian Pertahanan', url: 'https://chat.whatsapp.com/FXRyuLkyWZ668KEh8cZxEK' },
+                { name: 'Kementerian Perhubungan', url: 'https://chat.whatsapp.com/KInUETkqEqCI0amjPEtPma' },
                 { name: 'Kejaksaan Agung', url: 'https://chat.whatsapp.com/FWa0ZVGHWZ26aXACnTmnS1' },
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/L9yeLROPu5aAETSTElzd4k' },
                 { name: 'Mahkamah Agung Republik Indonesia (MA)', url: 'https://chat.whatsapp.com/C1mKLLJFSkyL1nnCsnJ2cd' },
@@ -56,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'Badan Nasional Pencarian dan Pertolongan (Basarnas)', url: 'https://chat.whatsapp.com/E6k8X1Bgri4G36xNBmDs9L' },
                 { name: 'Kementerian PUPR RI', url: 'https://chat.whatsapp.com/EJGIk6No3PpB6AoUxABILA' },
                 { name: 'Kementerian Pan-RB', url: 'https://chat.whatsapp.com/FR5mqbACxBy530GHCzMOgp' },
-                { name: 'Kementerian Pertahanan', url: 'https://chat.whatsapp.com/FXRyuLkyWZ668KEh8cZxEK' }
                 // ... (sisanya tetap sama)
             ]
         },
@@ -65,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'DISKUSI CPNS 2024 - Umum', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'CHANNEL INFORMASI FORMASI', url: 'https://t.me/formasicpns24' },
                 { name: 'KEMENTERIAN AGAMA', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'KEMENKUMHAM', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEMENTERIAN PERTAHANAN', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEMENTERIAN PAN RB', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEJAKSAAN', url: 'https://t.me/cpnsindonesia24' },
@@ -75,7 +77,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'KEMENTERIAN PERHUBUNGAN', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'BAWASLU', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'BASARNAS', url: 'https://t.me/cpnsindonesia24' },
-                { name: 'KEMENKUMHAM', url: 'https://t.me/cpnsindonesia24' },
                 // Tambahkan instansi lain sesuai kebutuhan
             ],
             formasi: [
