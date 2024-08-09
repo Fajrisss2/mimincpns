@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded', function() {
             instansi: [
                 { name: 'DISKUSI CPNS 2024 - Umum', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'CHANNEL INFORMASI FORMASI', url: 'https://t.me/formasicpns24' },
+                { name: 'KEMENTERIAN PERTAHANAN', url: 'https://t.me/kemenhan2024' },
                 { name: 'KEMENTERIAN AGAMA', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEMENKUMHAM', url: 'https://t.me/cpnsindonesia24' },
-                { name: 'KEMENTERIAN PERTAHANAN', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEMENTERIAN PAN RB', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEJAKSAAN', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEMENTERIAN KESEHATAN', url: 'https://t.me/cpnsindonesia24' },
@@ -82,6 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
             formasi: [
                 { name: 'DISKUSI CPNS 2024 - Formasi Umum', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'CHANNEL INFORMASI FORMASI', url: 'https://t.me/formasicpns24' },
+                { name: 'KEMENTERIAN PERTAHANAN', url: 'https://t.me/kemenhan2024' },
                 { name: 'Link Ready Setelah Pengunguman Resmi', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'Link Ready Setelah Pengunguman Resmi', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'Link Ready Setelah Pengunguman Resmi', url: 'https://t.me/cpnsindonesia24' },
