@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const linkData = {
         whatsapp: {
             daerah: [
+                { name: 'informasi Formasi', url: 'https://whatsapp.com/channel/0029Val5EQ8KWEKqdW8FGa1l' },
                 { name: 'Aceh', url: 'https://chat.whatsapp.com/EJNOTRyAH1qDqYFGVPbd1w' },
                 { name: 'Bali', url: 'https://chat.whatsapp.com/EFvuG6V1f5gLkdSimM1ubj' },
                 { name: 'Banten', url: 'https://chat.whatsapp.com/FQI228VkrJ17hTsVhTADlC' },
