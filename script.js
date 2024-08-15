@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'DKI Jakarta', url: 'https://chat.whatsapp.com/FNRgq0YDjUFJfU6mHslYbU' },
                 { name: 'Jawa Barat', url: 'https://chat.whatsapp.com/DKewPqfoTy4JLtyijmhA33' },
                 { name: 'Jawa Tengah', url: 'https://chat.whatsapp.com/COYvVpUmo6Y6OLypB1Oq4a' },
-                { name: 'Jawa Timur', url: 'https://chat.whatsapp.com/DXTNmT5t1FKJFcoZ6osWpk' },
+                { name: 'Jawa Timur', url: 'https://chat.whatsapp.com/G1pGrtkgbs74UEVSGHUWUc' },
                 { name: 'DI Yogyakarta', url: 'https://chat.whatsapp.com/Gm8HOulyZUC9fwI4yOrUBG' },
                 { name: 'Sumatera Utara', url: 'https://chat.whatsapp.com/IHTRTMfrk8K7X52YgrntrA' },
                 { name: 'Sumatera Barat', url: 'https://chat.whatsapp.com/E1OJy2oiYM25OFrRrHVqDS' },
