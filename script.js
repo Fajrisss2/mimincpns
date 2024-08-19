@@ -42,11 +42,11 @@ document.addEventListener('DOMContentLoaded', function() {
             instansi: [
                 { name: 'informasi Formasi', url: 'https://whatsapp.com/channel/0029Val5EQ8KWEKqdW8FGa1l' },
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/JJSji6jMaBnATHseG5h5Ad' },
-                { name: 'Kemenkumham', url: 'https://chat.whatsapp.com/LqPA93k8d8b6yDd05tTl1f' },
+                { name: 'Kemenkumham', url: 'https://chat.whatsapp.com/DU8hy3PWdb01w2sWsw1SQ8' },
                 { name: 'Kominfo', url: 'https://chat.whatsapp.com/DkCLsHpr2KGJHqo9HCajIR' },
                 { name: 'Kementerian Pertahanan', url: 'https://chat.whatsapp.com/FpCIJ73x3O2KAiWLm5mYwO' },
                 { name: 'Kementerian Perhubungan', url: 'https://chat.whatsapp.com/GB8BIhFp870DPX4peVUECA' },
-                { name: 'Kejaksaan Agung', url: 'https://chat.whatsapp.com/EnoSrUTghZ5ECcNM717Hnt' },
+                { name: 'Kejaksaan Agung', url: 'https://chat.whatsapp.com/JPtDBROV56BH8yjBBqY5QO' },
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/L9yeLROPu5aAETSTElzd4k' },
                 { name: 'Mahkamah Agung Republik Indonesia (MA)', url: 'https://chat.whatsapp.com/KkxoOmYYwkY7IS1D1DjM5k' },
                 { name: 'Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbud)', url: 'https://chat.whatsapp.com/DbDzyngn9MfKDzdNPEqgcI' },
