@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'Sekretariat Jenderal DPR RI', url: 'https://chat.whatsapp.com/CQQeP2Y8fmJBAQCud0lNPi' },
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/L9yeLROPu5aAETSTElzd4k' },
                 { name: 'Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)', url: 'https://chat.whatsapp.com/BfH9D095VHZ6ELytHyGNlQ' },
-                { name: 'Kementerian Kesehatan (Kemenkes)', url: 'https://chat.whatsapp.com/Gzr5q45TsYS3TwJ8rBQmMG' },
+                { name: 'Kementerian Kesehatan (Kemenkes)', url: 'https://chat.whatsapp.com/JPMKUyIgAoyAtSrtAIG0jH' },
                 { name: 'Kementerian Agama RI (Kemenag)', url: 'https://chat.whatsapp.com/CCfhzlH4vHk63oGU3Aghql' },
                 { name: 'Kementerian Pertanian (Mentan)', url: 'https://chat.whatsapp.com/IiUi9W07u3bGvUJAru9Erb' },
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/JJSji6jMaBnATHseG5h5Ad' },
