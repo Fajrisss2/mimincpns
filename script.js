@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/L9yeLROPu5aAETSTElzd4k' },
                 { name: 'Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK)', url: 'https://chat.whatsapp.com/BfH9D095VHZ6ELytHyGNlQ' },
                 { name: 'Kementerian Kesehatan (Kemenkes)', url: 'https://chat.whatsapp.com/JPMKUyIgAoyAtSrtAIG0jH' },
-                { name: 'Kementerian Agama RI (Kemenag)', url: 'https://chat.whatsapp.com/CCfhzlH4vHk63oGU3Aghql' },
+                { name: 'Kementerian Agama RI (Kemenag)', url: 'https://chat.whatsapp.com/DztGzL5GtQ9KvF6lWI15pL' },
                 { name: 'Kementerian Pertanian (Mentan)', url: 'https://chat.whatsapp.com/IiUi9W07u3bGvUJAru9Erb' },
                 { name: 'Sekretariat Jenderal Komisi Pemberantasan Korupsi (Setjen KPK)', url: 'https://chat.whatsapp.com/JJSji6jMaBnATHseG5h5Ad' },
                 { name: 'Kementerian ATR/BPN', url: 'https://chat.whatsapp.com/J4QJnNYmLjABJHv0urJBZ4' },
