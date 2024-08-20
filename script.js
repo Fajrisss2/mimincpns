@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'Kominfo', url: 'https://chat.whatsapp.com/DkCLsHpr2KGJHqo9HCajIR' },
                 { name: 'Komisi Pemilihan Umum(KPU)', url: 'https://chat.whatsapp.com/EMMX5HzqpnH3hItIBdeYmT' },
                 { name: 'Perpustakaan nasional', url: 'https://chat.whatsapp.com/BQdv3Op5EwvB31VUzyprXD' },
+                { name: 'Kemendagri', url: 'https://chat.whatsapp.com/K7TRgs3WmQa1qDVINVJ9ps' },
+                { name: 'Bps', url: 'https://chat.whatsapp.com/Cd7jUaDOwWuGMo2QIIqQEC' },
                 { name: 'Kementerian Pertahanan', url: 'https://chat.whatsapp.com/FpCIJ73x3O2KAiWLm5mYwO' },
                 { name: 'Kementerian Perhubungan', url: 'https://chat.whatsapp.com/GB8BIhFp870DPX4peVUECA' },
                 { name: 'Kejaksaan Agung', url: 'https://chat.whatsapp.com/JPtDBROV56BH8yjBBqY5QO' },
