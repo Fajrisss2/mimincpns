@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'KEJAKSAAN', url: 'https://t.me/cpnskejaksaan2024' },
                 { name: 'Komisi pemilihan umum', url: 'https://t.me/cpnskpu2024' },
                 { name: 'Pupr', url: 'https://t.me/cpnspupr2024' },
-                { name: 'KEMENTERIAN PAN RB', url: 'https://t.me/cpnsindonesia24' },
+                { name: 'Badan Pemeriksa keuangan', url: 'https://t.me/CPNSBPKP204' },
                 { name: 'KEMENTERIAN KESEHATAN', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEMENDIKBUDRISTEK', url: 'https://t.me/cpnsindonesia24' },
                 { name: 'KEMENTERIAN PUPR', url: 'https://t.me/cpnsindonesia24' },
@@ -98,6 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { name: 'KEJAKSAAN', url: 'https://t.me/cpnskejaksaan2024' },
                 { name: 'Komisi pemilihan umum', url: 'https://t.me/cpnskpu2024' },
                 { name: 'Pupr', url: 'https://t.me/cpnspupr2024' },
+                { name: 'Badan Pemeriksa keuangan', url: 'https://t.me/CPNSBPKP204' },
                 // Tambahkan formasi lain sesuai kebutuhan
             ]
         },
