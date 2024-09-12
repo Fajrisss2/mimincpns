@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
         whatsapp: {
             daerah: [
                 { name: 'informasi Formasi', url: 'https://whatsapp.com/channel/0029Val5EQ8KWEKqdW8FGa1l' },
-                { name: 'Aceh', url: 'https://chat.whatsapp.com/EJNOTRyAH1qDqYFGVPbd1w' },
+                { name: 'Bila Group Daerah Eror Join Sini', url: 'https://chat.whatsapp.com/H91DU3YuK64IUll2hlv7AJ' },
+                { name: 'Aceh', url: 'https://chat.whatsapp.com/E3PthGLzKd9BBxHkID3vvX' },
                 { name: 'Bali', url: 'https://chat.whatsapp.com/EFvuG6V1f5gLkdSimM1ubj' },
                 { name: 'Banten', url: 'https://chat.whatsapp.com/FWTTy6ROa3IFzi6bOn49UO' },
                 { name: 'Bengkulu', url: 'https://chat.whatsapp.com/GtK8xMvpEErBsQOvA9n5eF' },
@@ -91,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         contact: [
-            { name: 'WhatsApp', content: 'Hubungi Kami✅' }
+            { name: 'GroupBelajar Mimin', content: '✅' }
         ]
     };
 
@@ -108,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="category" data-category="contact">
                     <i class="fas fa-address-book"></i>
-                    <span>Contact Person</span>
+                    <span>Group Belajar MIMIN</span>            
                 </div>
             </div>
         `;
@@ -208,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contacts.forEach(contact => {
             html += `
                 <li class="link-box">
-                    <a href="https://wa.me/6285171546073?text=Halo%20Mimin%20Cpns" target="_blank">
+                    <a href="https://chat.whatsapp.com/GfkkNXFv0vB0SMyWxJIQsd" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                         <span>${contact.name}: ${contact.content}</span>
                     </a>
